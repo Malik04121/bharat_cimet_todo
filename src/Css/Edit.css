@@ -1,0 +1,45 @@
+.edit-modal{
+    position: absolute;
+    z-index: 1;
+    background-color: lightgray;
+    display: flex;
+    left: 45%;
+    height: 150px;
+    width: 300px;
+}
+.create-form {
+    display: flex;
+    flex-direction: column;
+    width: 200PX;
+    margin: auto;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+
+.create-btn {
+    padding: 5px 0px;
+    cursor: pointer;
+    margin-top: 10px;
+}   
+
+.status-container{
+    width: 150px;
+}
+
+.all-todos{
+    margin-top: 50px;
+}
+
+.cut-close{
+    background-color: gray;
+    padding: 4px 7px;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    cursor: pointer;
+    border: none;
+}

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  display: relative;
 }
 
 .App-logo {
@@ -35,4 +36,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.all-todos{
+  margin: auto;
+  width: 500px;
+}
+
+.table-row{
+  margin: auto;
+  text-align: center;
+}
+
+
+
+.single-todo{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-container{
+  display: flex;
+  gap: 10px;
+}
+
+.toggle-status-btn{
+  width: 160px;
+}
+
+td{
+  width: 250px;
 }
